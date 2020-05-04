@@ -129,7 +129,7 @@
 
                 <el-form-item label="树苗图标" prop="tree">
                     <el-upload
-                        action="upload"
+                        action="https://www.colynlu.cn/upload"
                         list-type="picture-card"
                         multiple
                         :limit="1"
@@ -145,7 +145,7 @@
 
                 <el-form-item label="树苗图" prop="code_num">
                     <el-upload
-                        action="upload"
+                        action="https://www.colynlu.cn/upload"
                         list-type="picture-card"
                         multiple
                         :on-preview="preview"

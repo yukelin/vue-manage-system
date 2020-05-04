@@ -110,7 +110,7 @@
 
                 <el-form-item label="装扮图标" prop="dress">
                     <el-upload
-                        action="upload"
+                        action="https://www.colynlu.cn/upload"
                         list-type="picture-card"
                         multiple
                         :limit="1"
@@ -126,7 +126,7 @@
 
                 <el-form-item label="小树苗图" prop="code_num">
                     <el-upload
-                        action="upload"
+                        action="https://www.colynlu.cn/upload"
                         list-type="picture-card"
                         multiple
                         :on-preview="preview"
@@ -139,7 +139,7 @@
                 </el-form-item>
                 <el-form-item label="大树苗图" prop="energy_value">
                     <el-upload
-                        action="upload"
+                        action="https://www.colynlu.cn/upload"
                         list-type="picture-card"
                         multiple
                         :on-preview="preview"
@@ -152,7 +152,7 @@
 
                 <el-form-item label="背景图" prop="bg_icon">
                     <el-upload
-                        action="upload"
+                        action="https://www.colynlu.cn/upload"
                         list-type="picture-card"
                         multiple
                         :on-preview="preview"
